@@ -4,7 +4,7 @@
 #include <stdlib.h>
 extern char *tzname[];
 
-main()
+int main(void)
 {
     time_t now;
     struct tm *sp;
